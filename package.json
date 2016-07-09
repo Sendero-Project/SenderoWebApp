@@ -1,0 +1,27 @@
+{
+  "name": "sendero-web-apps",
+  "version": "1.0.0",
+  "description": "Sendero web applications developed with Node.js + Socket.io + Three.js. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sendero-Project/SenderoWebApps.git"
+  },
+  "keywords": [
+    "Sendero",
+    "web-apps",
+    "cardboard"
+  ],
+  "author": "\"FIng's MediaLab (Bouvier, Ernst, Larrosa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sendero-Project/SenderoWebApps/issues"
+  },
+  "homepage": "https://github.com/Sendero-Project/SenderoWebApps#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

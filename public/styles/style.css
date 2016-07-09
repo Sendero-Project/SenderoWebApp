@@ -1,0 +1,98 @@
+#sendero-index {
+	font: 50px "Helvetica Neue", Arial, sans-serif;	
+}
+
+#sendero-index .sendero-index-title {
+	color: black;
+	font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px;
+}
+
+#sendero-index .sendero-index-subtitle {
+	color: black;
+	text-align: center;
+    margin: 10px;
+    font-weight: 100;
+}
+
+#sendero-index .sendero-index-icons {
+	padding: 50px;
+	color: black; 
+	padding-left: 40%;
+}
+
+#web-logo{
+	background-image: url("../images/PhoneIcon.png");
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#cardboard-logo{
+	background-image: url("../images/CardboardIcon.png");
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+	background-size: 150px 150px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#dashboard .content {
+	margin-top: 100px;
+}
+
+#dashboard .stat-header {
+	font-size: -webkit-xxx-large;
+}
+
+#dashboard .stat-val {
+	font-size: -webkit-xxx-large;
+    font-weight: 100;
+}
+
+#dashboard .stat-stdev {
+    font-weight: 100;
+}
+
+#dashboard .stat-element {
+	border-radius: 5px;
+    border-width: 1px;
+}
+
+#dashboard .stat-status-danger {
+	background-color: #F44336;
+	height: 3px;
+}
+
+#dashboard .stat-status-warning {
+	background-color: #FFC107;
+	height: 3px;
+}
+
+#dashboard .stat-status-ok {
+	background-color: #388E3C;
+	height: 3px;
+}
+
+#dashboard .stat-status-other {
+	background-color: #1976D2;
+	height: 3px;
+}
+
+#dashboard .table-title {
+	font-weight: bold;
+    font-size: x-large;
+}
+
+#dashboard .table-item-big {
+	font-weight: bold;
+}
+
