@@ -29,9 +29,9 @@ app.get('/cardboard', function (req, res) {
 // ********************************************************
 // Running
 // ********************************************************
-server.listen(8081, function () {
+server.listen(8989, function () {
   console.log("*********************************************");
-  console.log("*** SenderoWeb listening on port 8081 ... ***");
+  console.log("*** SenderoWeb listening on port 8989 ... ***");
   console.log("*********************************************");
 });
 
