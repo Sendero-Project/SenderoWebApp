@@ -5,8 +5,8 @@
 		<Mesh name="cylinderLong" path="meshes/cylinderLong100.obj"/>
 	</Meshes>
 	<Servers>
-		<Server name="StreamingServer" port="8080" url="192.168.1.100"/>
-		<Server name="InteractionServer" port="8081" url="192.168.1.100"/>
+		<Server name="StreamingServer" port="8080" url="localhost"/>
+		<Server name="InteractionServer" port="8081" url="localhost"/>
 	</Servers>
 	<FrameConf>
 		<Pixel id='0' r='255' g='255' b='255' a='255' device='1' ledType="0">

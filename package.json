@@ -4,6 +4,7 @@
   "description": "Sendero web applications developed with Node.js + Socket.io + Three.js. ",
   "main": "app.js",
   "scripts": {
+    "serve": "node_modules/nodemon/bin/nodemon.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/Sendero-Project/SenderoWebApps#readme",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

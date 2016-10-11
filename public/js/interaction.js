@@ -42,8 +42,11 @@ var Interaction = function() {
   function onDocumentMouseMove( event ) {
     event.preventDefault();
     if (shouldSend){
-      mouse.x = ( event.clientX / renderer.domElement.width ) * 2 - 1;
-      mouse.y = - ( event.clientY / renderer.domElement.height ) * 2 + 1;
+      
+      var rendererWidth = renderer.domElement.getBoundingClientRect().width;
+      var rendererHeight = renderer.domElement.getBoundingClientRect().height;
+      mouse.x = ( event.clientX / rendererWidth ) * 2 - 1;
+      mouse.y = - ( event.clientY / rendererHeight ) * 2 + 1;
 
       raycaster.setFromCamera( mouse, camera );
 
